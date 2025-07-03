@@ -9,53 +9,63 @@
 </head>
 
 <body>
-     <div class="form__body">
-      <form action="#" method="post" enctype="multipart/form-data">
-        <div class="form__row">
-          <div class="form__col">
-            <label for="login" class="form__label">Логин</label>
-            <input type="text" id="login" name="login" class="form__input" placeholder="Введите ваш логин" required>
-          </div>
-          
-          <div class="form__col">
-            <label for="password" class="form__label">Пароль</label>
-            <input type="password" id="password" name="password" class="form__input" placeholder="Введите ваш пароль" required>
-          </div>
-          
-          <div class="form__col">
-            <label for="fullName" class="form__label">Ф.И.О.</label>
-            <input type="text" id="fullName" name="fullName" class="form__input" placeholder="Иванов Иван Иванович" required>
-          </div>
+  <div class="form__body">
+    <form class="form" action="#" method="post" enctype="multipart/form-data">
+      <div class="form__row">
+        <div class="form__col">
+          <label for="login" class="form__label">Логин</label>
+          <input type="text" id="login" name="login" class="form__input" placeholder="Введите ваш логин" required>
         </div>
+      </div>
 
-        <div class="form__row">
-          <div class="form__col">
-            <label for="email" class="form__label">E-Mail</label>
-            <input type="email" id="email" name="email" class="form__input" placeholder="example@mail.ru" required>
-          </div>
-          
-          <div class="form__col">
-            <label for="phone" class="form__label">Телефон</label>
-            <input type="tel" id="phone" name="phone" class="form__input" placeholder="+7 (999) 123-45-67">
-          </div>
-          
-          <div class="form__col">
-            <label for="about" class="form__label">О себе</label>
-            <textarea id="about" name="about" class="form__input form__input--textarea" rows="3" placeholder="Расскажите немного о себе"></textarea>
-          </div>
+      <div class="form__row">
+        <div class="form__col">
+          <label for="password" class="form__label">Пароль</label>
+          <input type="password" id="password" name="password" class="form__input" placeholder="Введите ваш пароль" required>
         </div>
-        <div class="form__row">
-            <div class="form__col">
-                <label for="fileInput" class="form__label">Аватар</label>
-                <input type="file" id="fileInput" name="avatar" class="form__input">
-            </div>
-            <div class="form__col">
-                <button type="submit" class="form__submit">Отправить</button>
-            </div>
-        </div>      
-      </form>
-    </div>
+      </div>
+
+      <div class="form__row">
+        <div class="form__col">
+          <label for="fullName" class="form__label">Ф.И.О.</label>
+          <input type="text" id="fullName" name="fullName" class="form__input" placeholder="Иванов Иван Иванович" required>
+        </div>
+      </div>
+
+      <div class="form__row">
+        <div class="form__col">
+          <label for="email" class="form__label">E-Mail</label>
+          <input type="email" id="email" name="email" class="form__input" placeholder="example@mail.ru" required>
+        </div>
+      </div>
+
+      <div class="form__row">
+        <div class="form__col">
+          <label for="phone" class="form__label">Телефон</label>
+          <input type="tel" id="phone" name="phone" class="form__input" placeholder="+7 (999) 123-45-67">
+        </div>
+      </div>
+
+      <div class="form__row">
+        <div class="form__col">
+          <label for="about" class="form__label">О себе</label>
+          <textarea id="about" name="about" class="form__input form__input--textarea" rows="3" placeholder="Расскажите немного о себе"></textarea>
+        </div>
+      </div>
+
+      <div class="form__row">
+        <div class="form__col">
+          <label for="fileInput" class="form__label">Аватар</label>
+          <input type="file" id="fileInput" name="avatar" class="form__input">
+        </div>
+      </div>
+
+      <div class="form__row">
+        <div class="form__col">
+          <button type="submit" class="form__submit">Отправить</button>
+        </div>
+      </div>
+    </form>
   </div>
 </body>
-
 </html>
